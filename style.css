@@ -110,3 +110,31 @@ img {
     width: 175px;
     text-align: center;
 }
+
+.quote-container {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    height: 300px;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    padding: 20px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: bold;
+}
